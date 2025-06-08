@@ -1,0 +1,11 @@
+#img1 {
+  clip-path: ellipse(50% 75%);
+}
+
+#img2 {
+  clip-path: ellipse(40% 65%);
+}
+
+#img3 {
+  clip-path: ellipse(50% 60%);
+}
