@@ -1,0 +1,77 @@
+body{
+   background: linear-gradient(to right, #667eea, #764ba2);
+  background-color: rgb(14, 16, 16);
+  padding: 0;
+  margin: 0;
+  font-family:  'Orbitron', sans-serif;
+;
+}
+
+.clockContainer{
+  
+  border: 1px solid black;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+/* .clock{
+  background: #e0e0e0;
+  box-shadow: inset 5px 5px 10px #bebebe,
+              inset -5px -5px 10px #ffffff;
+  border-radius: 20px;
+  color: #333;
+  font-size: 60px;
+  padding: 30px 50px;
+  font-family: 'Orbitron', sans-serif; 
+} */
+
+
+  .clock {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 40px 60px;
+  font-size: 60px;
+  color: white;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  text-shadow: 0 0 10px rgba(255,255,255,0.3);
+}
+  
+
+
+
+
+
+#hour{
+  border-radius: 3px;
+  background-color: aquamarine;
+  color: black;
+  padding: 5px;
+  }
+
+
+ #minutes{
+  border-radius: 3px;
+  background-color: aquamarine;
+  color: black;
+  padding: 5px;
+
+  }
+#seconds{
+  background-color: aquamarine;
+  color: black;
+  border-radius: 3px;
+  padding: 5px;
+
+
+  }
+
+
